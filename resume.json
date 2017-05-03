@@ -1,0 +1,20 @@
+{
+	"education": [
+		{
+			"school_name": "Global University",
+			"dates": "Expected December 2017",
+			"description": "Bachelor of Arts in Bible and Theological Studies",
+			"not_last": true
+		}, {
+			"school_name": "Treehouse",
+			"dates": "May 2015 - April 2017",
+			"description": "Various Programming Courses",
+			"not_last": true
+		}, {
+			"school_name": "University of Valley Forge",
+			"dates": "January 2013 - December 2016",
+			"description": "Bachelor of Arts in Youth Ministry",
+			"not_last": false
+		}
+	]
+}
