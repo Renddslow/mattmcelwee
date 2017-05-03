@@ -3,6 +3,7 @@
 	<head>
 		<title>Matt McElwee | Resume</title>
 		<link rel="stylesheet" href="/static/resume.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<script src="https://use.fontawesome.com/0e9b7b8b7f.js"></script>
 		<script>
 			num1 = "+1402";
@@ -89,6 +90,31 @@
 		        </div>
 						{% endif %}
 						{% endfor %}
+		      </div>
+		    </div>
+				<hr>
+				<div class="mm-row">
+		      <div class="mm-col mm-col-33 resume-section-header">
+		        Skills
+		      </div>
+		      <div class="mm-col mm-col-66 resume-section-description">
+						<div class="mm-row">
+							<div class="mm-col mm-col-33">
+								{% for skill in resume['skills']['languages'] %}
+								<div>{{ skill }}</div>
+								{% endfor %}
+							</div>
+							<div class="mm-col mm-col-33">
+								{% for skill in resume['skills']['technical_skills'] %}
+								<div>{{ skill }}</div>
+								{% endfor %}
+							</div>
+							<div class="mm-col mm-col-33">
+								{% for skill in resume['skills']['soft_skills'] %}
+								<div>{{ skill }}</div>
+								{% endfor %}
+							</div>
+						</div>
 		      </div>
 		    </div>
 			</div>

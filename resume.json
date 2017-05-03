@@ -90,5 +90,30 @@
 			],
 			"not_last": false
 		}
-	]
+	],
+	"skills": {
+		"languages": [
+			"Python (2.7 & 3.5+)",
+			"Swift 3",
+			"PHP",
+			"JavaScript",
+			"ColdFusion",
+			"HTML5"
+		],
+		"technical_skills": [
+			"MySQL",
+			"MongoDB",
+			"RESTful APIs",
+			"Cloud Services",
+			"Linux",
+			"Version Control (git, SVN)"
+		],
+		"soft_skills": [
+			"Leadership",
+			"Creativity",
+			"Innovation",
+			"Inclusiveness",
+			"Collaboration"
+		]
+	}
 }
