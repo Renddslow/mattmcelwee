@@ -5,15 +5,70 @@
 			"dates": "Expected December 2017",
 			"description": "Bachelor of Arts in Bible and Theological Studies",
 			"not_last": true
-		}, {
+		},{
 			"school_name": "Treehouse",
 			"dates": "May 2015 - April 2017",
 			"description": "Various Programming Courses",
 			"not_last": true
-		}, {
+		},{
 			"school_name": "University of Valley Forge",
 			"dates": "January 2013 - December 2016",
 			"description": "Bachelor of Arts in Youth Ministry",
+			"not_last": false
+		}
+	],
+	"employment": [
+		{
+			"name": "InnatePlate, Omaha, NE",
+			"dates": "Jan 2017 - Present",
+			"titles": [
+				"Engineer"
+			],
+			"responsibilities": [
+				""
+			],
+			 "not_last": true
+		},{
+			"name": "Hayneedle, Inc., Omaha, NE",
+			"dates": "March 2016 - Present",
+			"titles": [
+				"Web Applications Developer II (April 2017 - Present)",
+				"Web Applications Developer I (March 2016 - April 2017)"
+			],
+			"responsibilities": [
+				""
+			],
+			 "not_last": true
+		},{
+			"name": "Flatland Group, Omaha, NE",
+			"dates": "October 2016 - Present",
+			"titles": [
+				"Web Overseer"
+			],
+			"responsibilities": [
+				""
+			],
+			 "not_last": true
+		},{
+			"name": "Glad Tidings Church, Reading, PA",
+			"dates": "January 2013 - March 2016",
+			"title": [
+				"Web Developer",
+				"Technical Operations Assistant"
+			],
+			"responsibilities": [
+				""
+			],
+			"not_last": true
+		},{
+			"name": "Davison Inc., Realtors, Phoenixville, PA",
+			"dates": "February 2015 - May 2015",
+			"title": [
+				"Web Developer"
+			],
+			"responsibilities": [
+				""
+			],
 			"not_last": false
 		}
 	]

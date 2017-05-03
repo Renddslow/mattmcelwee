@@ -59,57 +59,37 @@
 		      <div class="mm-col mm-col-33 resume-section-header">
 		        Employment
 		      </div>
+					{% for employment in resume['employment'] %}
 		      <div class="mm-col mm-col-66 resume-section-description">
 		        <div class="mm-row info-name-date">
 		          <div class="mm-col mm-col-66">
-		            <span class="org-name">Hayneedle, Inc., Omaha, Ne.</span>
+		            <span class="org-name">{{ employment['name'] }}</span>
 		          </div>
 		          <div class="mm-col mm-col-33">
-		            <span class="org-date">March 2016 - Present</span>
+		            <span class="org-date">{{ employment['dates'] }}</span>
 		          </div>
 		          <div class="mm-row title-wrapper">
+								{% for title in employment['titles'] %}
 		            <div class="mm-col">
-		              <span class="org-title">Web Application Developer II (April 2017 - Present)</span>
+		              <span class="org-title">{{ title }}</span>
 		            </div>
-		            <div class="mm-col">
-		              <span class="org-title">Web Application Developer I (March 2016 - April 2017)</span>
-		            </div>
+								{% endfor %}
 		          </div>
 		          <div class="mm-row job-responsibilities">
 		            <ul>
-		              <li>This is the stuff and the things</li>
-		              <li>This is the stuff and the things</li>
-		              <li>This is the stuff and the things</li>
+									{% for responsibility in employment['responsibilities'] %}
+		              <li>{{ responsibility }}</li>
+									{% endfor %}
 		            </ul>
 		          </div>
 		        </div>
+						{% if employment['not_last'] %}
 		        <div class="description-break">
 		          <hr>
 		        </div>
-		        <div class="mm-row info-name-date">
-		          <div class="mm-col mm-col-66">
-		            <span class="org-name">Hayneedle, Inc., Omaha, Ne.</span>
-		          </div>
-		          <div class="mm-col mm-col-33">
-		            <span class="org-date">March 2016 - Present</span>
-		          </div>
-		          <div class="mm-row title-wrapper">
-		            <div class="mm-col">
-		              <span class="org-title">Web Application Developer II (April 2017 - Present)</span>
-		            </div>
-		            <div class="mm-col">
-		              <span class="org-title">Web Application Developer I (March 2016 - April 2017)</span>
-		            </div>
-		          </div>
-		          <div class="mm-row job-responsibilities">
-		            <ul>
-		              <li>This is the stuff and the things</li>
-		              <li>This is the stuff and the things</li>
-		              <li>This is the stuff and the things</li>
-		            </ul>
-		          </div>
-		        </div>
+						{% endif %}
 		      </div>
+					{% endfor %}
 		    </div>
 			</div>
 		</section>
