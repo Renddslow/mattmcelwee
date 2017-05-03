@@ -25,7 +25,10 @@
 				"Engineer"
 			],
 			"responsibilities": [
-				""
+				"Developed a backend architecture to support subscription, ecommerce, and affiliates. ",
+				"Developed a RESTful API for all data exchange within the product.",
+				"Developed a CMS for managing products, courses, and content.",
+				"Began working on native apps for the product."
 			],
 			 "not_last": true
 		},{
@@ -36,7 +39,12 @@
 				"Web Applications Developer I (March 2016 - April 2017)"
 			],
 			"responsibilities": [
-				""
+				"Contributed in web site content creation, enhancements and maintenance as well as.",
+				"Improved legacy code with modern principles and TDD.",
+				"Helped create and specify architectural and technical parameters for new and existing web applications.",
+				"Maintained high availability web applications.",
+				"Expanded into iOS development working heavily with our private API to build a retail basics application.",
+				"Worked with ChatOps and automation."
 			],
 			 "not_last": true
 		},{
@@ -46,7 +54,14 @@
 				"Web Overseer"
 			],
 			"responsibilities": [
-				""
+				"Lead redesign and redevelopment of web site.",
+				"Researched new 3rd party applications and services.",
+				"Evaluated the effectiveness and metrics of products within the department.",
+				"Accelerated online growth in all channels (social, podcast, web).",
+				"Communicated changes and project/product ideas to other overseers.",
+				"Helped grow new projects based on data and feedback.",
+				"Tracked analytics and ensured effective search engine ranking.",
+				"Lead a team which oversaw web design & development, social media, podcasting, and blogging."
 			],
 			 "not_last": true
 		},{
@@ -57,7 +72,9 @@
 				"Technical Operations Assistant"
 			],
 			"responsibilities": [
-				""
+				"Lead redesign of web site.",
+				"Ensured effective ranking in online search.",
+				"Developed a tool to move records from online giving system to church management system.",
 			],
 			"not_last": true
 		},{
@@ -67,7 +84,9 @@
 				"Web Developer"
 			],
 			"responsibilities": [
-				""
+				"Developed a Wordpress-based realty listing site.",
+				"Designed custom Wordpress templates to effectively display both commercial and residential properties.",
+				"Coordinated social media listings of properties."
 			],
 			"not_last": false
 		}
