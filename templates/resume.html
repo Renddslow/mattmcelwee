@@ -1,0 +1,129 @@
+<!doctype>
+<html>
+	<head>
+		<title>Matt McElwee | Resume</title>
+		<link rel="stylesheet" href="/static/resume.css">
+		<script src="https://use.fontawesome.com/0e9b7b8b7f.js"></script>
+		<script>
+			num1 = "+1402";
+			num2 = "8850620";
+			num3 = "402.";
+			num4 = "885.0620";
+			var1 = "mubatt";
+			var2 = "@wyopub.com";
+			var3 = "mubatt@";
+			var4 = "wyopub.com";
+		</script>
+	</head>
+	<body>
+		<section class="resume-wrapper">
+		  <div class="mid">
+		    <div class="mm-row">
+		      <h2>Matt McElwee</h2>
+		      <div class="contact">
+					<script>
+		        document.write("<a href='tel:'" + num1 + num2 + ">" + num3 + num4 + "</a>");
+		      </script>
+						|
+		      <script>
+		        document.write("<a href='mailto:'" + var1 + var2 + ">" + var3 + var4 + "</a>");
+		      </script>
+		      </div>
+		    </div>
+		    <hr>
+		    <div class="mm-row">
+		      <div class="mm-col mm-col-33 resume-section-header">
+		        Education
+		      </div>
+		      <div class="mm-col mm-col-66 resume-section-description">
+						{% for education in resume['education'] %}
+		        <div class="mm-row info-name-date">
+		          <div class="mm-col mm-col-66">
+		            <span class="org-name">{{ education['school_name'] }}</span>
+		          </div>
+		          <div class="mm-col mm-col-33">
+		            <span class="org-date">{{ education['dates'] }}</span>
+		          </div>
+		        </div>
+		        <p>{{ education['description'] }}</p>
+						{% if education['is_last'] %}
+		        <div class="description-break">
+		          <hr>
+		        </div>
+						{% endif %}
+						{% endfor %}
+		      </div>
+		    </div>
+		    <hr>
+		    <div class="mm-row">
+		      <div class="mm-col mm-col-33 resume-section-header">
+		        Employment
+		      </div>
+		      <div class="mm-col mm-col-66 resume-section-description">
+		        <div class="mm-row info-name-date">
+		          <div class="mm-col mm-col-66">
+		            <span class="org-name">Hayneedle, Inc., Omaha, Ne.</span>
+		          </div>
+		          <div class="mm-col mm-col-33">
+		            <span class="org-date">March 2016 - Present</span>
+		          </div>
+		          <div class="mm-row title-wrapper">
+		            <div class="mm-col">
+		              <span class="org-title">Web Application Developer II (April 2017 - Present)</span>
+		            </div>
+		            <div class="mm-col">
+		              <span class="org-title">Web Application Developer I (March 2016 - April 2017)</span>
+		            </div>
+		          </div>
+		          <div class="mm-row job-responsibilities">
+		            <ul>
+		              <li>This is the stuff and the things</li>
+		              <li>This is the stuff and the things</li>
+		              <li>This is the stuff and the things</li>
+		            </ul>
+		          </div>
+		        </div>
+		        <div class="description-break">
+		          <hr>
+		        </div>
+		        <div class="mm-row info-name-date">
+		          <div class="mm-col mm-col-66">
+		            <span class="org-name">Hayneedle, Inc., Omaha, Ne.</span>
+		          </div>
+		          <div class="mm-col mm-col-33">
+		            <span class="org-date">March 2016 - Present</span>
+		          </div>
+		          <div class="mm-row title-wrapper">
+		            <div class="mm-col">
+		              <span class="org-title">Web Application Developer II (April 2017 - Present)</span>
+		            </div>
+		            <div class="mm-col">
+		              <span class="org-title">Web Application Developer I (March 2016 - April 2017)</span>
+		            </div>
+		          </div>
+		          <div class="mm-row job-responsibilities">
+		            <ul>
+		              <li>This is the stuff and the things</li>
+		              <li>This is the stuff and the things</li>
+		              <li>This is the stuff and the things</li>
+		            </ul>
+		          </div>
+		        </div>
+		      </div>
+		    </div>
+			</div>
+		</section>
+		<hr>
+		<footer>
+		  <a href="https://twitter.com/renddslow" target="_blank">
+		    <i class="fa fa-twitter"></i>
+		  </a>
+		  <a href="https://linkedin.com/in/renddslow" target="_blank">
+		    <i class="fa fa-linkedin"></i>
+		  </a>
+		  <a href="https://github.com/renddslow" target="_blank">
+		    <i class="fa fa-github"></i>
+		  </a>
+		</footer>
+	</body>
+</html>

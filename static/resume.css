@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css?family=Lora|Open+Sans:300');
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lora", serif;
+  margin: 0;
+  background: #f8f8f8;
+}
+
+.resume-wrapper {
+  padding-top: 45px;
+  width: 100%;
+  padding: 0px 20px;
+}
+
+.mm-row {
+  width: 100%;
+  display: table;
+  position: relative;
+}
+
+.mm-col-33 {
+  width: 33%;
+}
+
+.mm-col-66 {
+  width: 66%;
+}
+
+.mm-col {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.mm-row > h2 {
+  padding: 10px 0;
+  letter-spacing: 0.10em;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid #eee;
+}
+
+.contact {
+  margin: 0 auto;
+  color: #4f4f54;
+  letter-spacing: 0.20em;
+  font-family: "Lora", serif;
+  text-transform: uppercase;
+  font-size: 12px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #4f4f54;
+}
+
+.resume-section-header {
+  padding: 10px 0;
+  letter-spacing: 0.10em;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  font-size: 36px;
+  text-align: center;
+  color: #464646;
+}
+
+.resume-section-description {
+  padding: 10px 0;
+  margin: 0 auto;
+  color: #4f4f54;
+  letter-spacing: 0.20em;
+  font-family: "Lora", serif;
+  font-size: 12px;
+}
+
+.org-name {
+  float: left;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.org-date {
+  float: right;
+}
+
+.org-title {
+  float: left;
+  font-style: italic;
+}
+
+.mm-row.job-responsibilities,
+.mm-row.title-wrapper {
+  padding-top: 15px;
+}
+
+ol, ul {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.description-break > hr {
+  border-top: dotted 1px #efefef;
+}
+
+footer {
+  text-align: center;
+}
+
+@media only screen and (max-width: 1000px) {
+  .mm-row {
+    padding: 0;
+  }
+
+  .mm-col-33, .mm-col-66,
+  .mm-col-50 {
+    width: 100%;
+    padding: 12px;
+    font-size: 13px;
+  }
+
+  .resume-section-description {
+    text-align: center;
+  }
+
+  .org-name, .org-date {
+    float: none;
+  }
+
+  .mm-row.job-responsibilities {
+    padding-top: 25px;
+  }
+
+  .mm-col.mm-col-33.resume-section-header {
+    font-size: 30px;
+    padding: 10px 0;
+    text-align: center;
+  }
+
+}
