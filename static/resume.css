@@ -127,6 +127,10 @@ footer > a {
 	padding: 0 20px;
 }
 
+footer > span {
+	display: none;
+}
+
 @media only screen and (max-width: 1000px) {
   .mm-row {
     padding: 0;
@@ -157,4 +161,14 @@ footer > a {
     text-align: center;
   }
 
+}
+
+@media print {
+	.resume-section-header {
+		font-size: 20px;
+	}
+
+	footer > span {
+		display: inline;
+	}
 }
