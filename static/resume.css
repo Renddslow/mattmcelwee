@@ -127,7 +127,7 @@ footer > a {
 	padding: 0 20px;
 }
 
-footer > span {
+footer > a span {
 	display: none;
 }
 
@@ -168,7 +168,7 @@ footer > span {
 		font-size: 20px;
 	}
 
-	footer > span {
+	footer > a span {
 		display: inline;
 	}
 }
