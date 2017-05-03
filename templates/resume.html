@@ -59,8 +59,8 @@
 		      <div class="mm-col mm-col-33 resume-section-header">
 		        Employment
 		      </div>
-					{% for employment in resume['employment'] %}
 		      <div class="mm-col mm-col-66 resume-section-description">
+						{% for employment in resume['employment'] %}
 		        <div class="mm-row info-name-date">
 		          <div class="mm-col mm-col-66">
 		            <span class="org-name">{{ employment['name'] }}</span>
@@ -83,13 +83,11 @@
 		            </ul>
 		          </div>
 		        </div>
-						{% if employment['not_last'] %}
 		        <div class="description-break">
 		          <hr>
 		        </div>
-						{% endif %}
+						{% endfor %}
 		      </div>
-					{% endfor %}
 		    </div>
 			</div>
 		</section>
