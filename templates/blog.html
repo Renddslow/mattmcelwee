@@ -1,0 +1,23 @@
+{% extends "blog-main-layout.html" %}
+{% block content %}
+{% for post in posts %}
+<div class="blog-post">
+	<h2>{{ post['title']  }}</h2>
+	<div class="blog-post-meta">
+		<span>{{ post['published_date'] }} / <a href="/thoughts/categories/{{ post['categories'][0]['permalink'] }}">{{ post['categories'][0]['name'] }}</a> / <a href="/thoughts/{{ post['permalink'] }}#comments">{{ post['comments']['count'] }}</a></span>
+	</div>
+	<div class="blog-post-image" style="background-image: url('{{ post['image'] }}')"></div>
+	<div class="blog-post-excerpt">
+		{{ post['excerpt'] | markdown }} (...)
+		<a href="/thoughts/{{ post['permalink'] }}">Continue Reading</a>
+	</div>
+</div>
+{% endfor %}
+<div class="blog-pagination">
+	<ul>
+		{% for page in pagination %}
+		<li><a href="/thoughts?page={{ page }}">{{ page }}</a></li>
+		{% endfor %}
+	</ul>
+</div>
+{% endblock %}

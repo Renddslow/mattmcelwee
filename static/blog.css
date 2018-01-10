@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Open+Sans:300');
+
+* {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+#wrapper {
+	max-width: 100%;
+	display: block;
+	margin: 0 auto;
+	overflow: hidden;
+	background: #fcfcfc;
+}
+
+.blog-post {
+	display: block;
+	width: 65%;
+	margin: 0 auto;
+}
+
+.blog-post h2 {
+    display: block;
+    text-align: center;
+	font-family: "Open Sans", sans-serif;
+	font-size: 2.1em;
+	margin: 2em auto .5em;
+}
+
+.blog-post-image {
+    width: 100%;
+    height: 400px;
+    display: block;
+    background-size: cover;
+    background-position: center;
+}
+
+.blog-post-meta {
+    width: 100%;
+    display: block;
+    text-align: center;
+	margin-bottom: 1em;
+	color: #999;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 300;
+}
+
+.blog-post-meta a {
+	color: #E87E04;
+	text-decoration: none;
+}
+
+.blog-post-excerpt {
+    width: 80%;
+    display: block;
+	font-family: "Lora", serif;
+	font-size: 1.3em;
+	font-weight: 300;
+	color: #333;
+	margin: 1em auto 2em;
+}
+
+
+@media screen and (max-width: 900px) {
+	.blog-post { width: 95%; }
+	.blog-post-excerpt { width: 95%; }
+}

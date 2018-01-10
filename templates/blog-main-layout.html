@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+	<head>
+		<title>{{ page_title }} :: Matt McElwee</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		{% for meta_tag in meta %}
+		<meta name="{{ meta_tag[0] }}" content="{{ meta_tag[1] }}">
+		{% endfor %}
+		{% for page in pagination_meta %}
+		<link rel="{{ page[0] }}" href="/thoughts?page={{ page[1] }}">
+		{% endfor %}
+		<link rel="stylesheet" href="/static/blog.css">
+	</head>
+	<body>
+		<div id="wrapper">
+			<header>
+			</header>
+			{% block content %}
+			{% endblock %}
+			<footer>
+			</footer>
+		</div>
+	</body>
+</html>

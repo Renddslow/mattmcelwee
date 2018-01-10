@@ -1,4 +1,5 @@
 {
+	"summary": "My name is Matt McElwee, I am a full-stack polyglot developer and designer. I am passionate about creating simple solutions to complex problems. I have worked in a range of sectors, from non-profits to multi-million dollar eCommerce companies. I have had the opportunity to develop new platforms from the ground up while also getting to improve and refactor existing platforms that have stood for 15 years. I am excited to continue learning new stacks and technologies and constantly seek out creative solutions to compelling problems.",
 	"education": [
 		{
 			"school_name": "Global University",
@@ -18,6 +19,20 @@
 		}
 	],
 	"employment": [
+		{
+			"name": "From Now On, Omaha, NE",
+			"dates": "Aug 2017 - Present",
+			"titles": [
+				"Javascript Developer"
+			],
+			"responsibilities": [
+				"Developed and maintained a content-management system for clients to maintain their apps. Developed a RESTful API for all data exchange within the product.",
+				"Worked with various third-party APIs to provide additional services to the end-user, including Twitter, OneSignal (push notifications), and Twilio.",
+				"Developed and maintained systems to deliver reliable live game stat updates to users, from consuming third party stat data to sending the update in a push notification.",
+				"Worked with cloud service providers to deploy and maintain services on a multi-region basis."
+			],
+			"not_last": true
+		},
 		{
 			"name": "InnatePlate, Omaha, NE",
 			"dates": "Jan 2017 - Present",
@@ -39,6 +54,8 @@
 				"Web Applications Developer I (March 2016 - April 2017)"
 			],
 			"responsibilities": [
+				"Worked in both Kanban and Scrum teams.",
+				"Participated in daily standups, regular sprint planning meetings, and retrospects.",
 				"Contributed in web site content creation, enhancements and maintenance as well as.",
 				"Improved legacy code with modern principles and TDD.",
 				"Helped create and specify architectural and technical parameters for new and existing web applications.",
@@ -98,7 +115,9 @@
 			"PHP",
 			"JavaScript",
 			"ColdFusion",
-			"HTML5"
+			"HTML5",
+			"Angular 2",
+			"Node.js"
 		],
 		"technical_skills": [
 			"MySQL",
@@ -106,14 +125,17 @@
 			"RESTful APIs",
 			"Cloud Services",
 			"Linux",
-			"Version Control (git, SVN)"
+			"Version Control (git, SVN)",
+			"Redis",
+			"nginx"
 		],
 		"soft_skills": [
 			"Leadership",
 			"Creativity",
 			"Innovation",
 			"Inclusiveness",
-			"Collaboration"
+			"Collaboration",
+			"Agile"
 		]
 	}
 }
